@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gbprimepay_Gbp>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Gbprimepay_Gbp>
+    </modules>
+</config>

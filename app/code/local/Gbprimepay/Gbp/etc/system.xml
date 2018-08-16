@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<payment>
+			<groups>
+				<gbp translate="label comment" module="paygate">
+					<label>GBPrimePay</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>0</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+
+						<title translate="label">
+							<label>Title</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+						</title>
+						<!-- <description translate="label"> <label>Description</label> <frontend_type>text</frontend_type> 
+							<sort_order>20</sort_order> <show_in_default>1</show_in_default> <show_in_website>1</show_in_website> 
+							<show_in_store>1</show_in_store> </description> -->
+
+						<token translate="label">
+							<label>Token</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>21</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>0</show_in_website>
+							<show_in_store>0</show_in_store>
+						</token>
+
+						<!-- <backgroundurl translate="label"> <label>Backgound Url</label> 
+							<frontend_type>text</frontend_type> <sort_order>22</sort_order> <show_in_default>1</show_in_default> 
+							<show_in_website>0</show_in_website> <show_in_store>0</show_in_store> </backgroundurl> -->
+
+						<!-- <paytype translate="label"> <label>Pay Type</label> <frontend_type>multiselect</frontend_type> 
+							<source_model>gbp/gbp_paytype</source_model> <sort_order>40</sort_order> 
+							<show_in_default>1</show_in_default> </paytype> -->
+					</fields>
+				</gbp>
+			</groups>
+		</payment>
+	</sections>
+</config>
